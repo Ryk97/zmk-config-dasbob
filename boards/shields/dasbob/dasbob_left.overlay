@@ -4,4 +4,4 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "dasbob.dtsi"
+#include "dasbob_halves.dtsi"

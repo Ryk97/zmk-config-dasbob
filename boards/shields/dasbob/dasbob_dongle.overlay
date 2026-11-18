@@ -1,0 +1,22 @@
+/*
+ * Copyright (c) 2021 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "dasbob.dtsi"
+
+/ {
+
+	chosen {
+		zmk,kscan = &mock_kscan;
+	};
+
+	mock_kscan: mock_kscan {
+		compatible = "zmk,kscan-mock";
+		columns = <1>;
+		rows = <0>;
+		events = <>;
+	};
+
+};
