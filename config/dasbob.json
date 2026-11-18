@@ -16,8 +16,8 @@
       "KC_Z", "KC_X", "KC_C", "KC_D", "KC_V",
       "KC_K", "KC_H", "KC_COMMA", "KC_DOT", "KC_SLASH",
 
-      "LALT_T(KC_ESC)", "LT(1,KC_SPACE)", "RALT_T(KC_QUOTE)",
-      "KC_NO", "KC_NO", "KC_NO"
+      "LT(3,KC_DELETE)", "LT(2,KC_BSPACE)", "LALT_T(KC_ESC)",
+      "LGUI_T(KC_ENTER)", "LT(1,KC_SPACE)", "RALT_T(KC_QUOTE)"
     ],
     [
       "KC_1", "KC_2", "KC_3", "KC_4", "KC_5",
@@ -53,7 +53,7 @@
       "KC_NO", "KC_BTN1", "KC_BTN2", "KC_BTN3", "KC_NO",
 
       "KC_WHEEL_LEFT", "KC_WHEEL_DOWN", "KC_WHEEL_UP", "KC_WHEEL_RIGHT", "KC_NO",
-      "KC_NO", "KC_INSERT", "KC_DELETE", "KC_NO", "KC_NO",
+      "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO",
 
       "KC_TRNS", "KC_TRNS", "KC_TRNS",
       "KC_TRNS", "KC_TRNS", "KC_TRNS"
