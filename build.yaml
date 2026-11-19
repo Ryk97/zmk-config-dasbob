@@ -19,9 +19,9 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: dasbob_left
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: dasbob_right
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: dasbob_dongle prospector_adapter
