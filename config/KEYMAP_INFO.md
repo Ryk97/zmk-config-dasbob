@@ -28,7 +28,7 @@
 ```
   F1      F2          F3          F4          F5          F6          F7          F8          F9          F10
   M←      M↓          M↑          M→          TRIP_SFT    ...         BTN1        BTN2        BTN3        ...
-  WHEE    WHEE        WHEE        WHEE        ...         ...         INS         DEL         ...         ...
+  WHEE    WHEE        WHEE        WHEE        ...         ...         INS         DEL         ...         STUDIO
 ```
 
 ## Special Keys
@@ -37,6 +37,7 @@
 - **Layer Taps**: Space (→ Layer 1), Backspace, Delete, Escape (mod-taps)
 - **Combos**: Q+W = Tab
 - **Macros**: Fun Layer G = Triple Shift
+- **ZMK Studio**: Fun Layer, unterste Reihe ganz rechts = Studio Unlock (Studio läuft über den Dongle per USB)
 
 ## Timing
 

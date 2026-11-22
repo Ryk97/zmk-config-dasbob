@@ -53,7 +53,7 @@
       "KC_NO", "KC_BTN1", "KC_BTN2", "KC_BTN3", "KC_NO",
 
       "KC_WHEEL_LEFT", "KC_WHEEL_DOWN", "KC_WHEEL_UP", "KC_WHEEL_RIGHT", "KC_NO",
-      "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO",
+      "KC_NO", "KC_NO", "KC_NO", "KC_NO", "STUDIO_UNLOCK",
 
       "KC_TRNS", "KC_TRNS", "KC_TRNS",
       "KC_TRNS", "KC_TRNS", "KC_TRNS"
