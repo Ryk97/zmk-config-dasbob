@@ -41,6 +41,15 @@ Oder einfach den ZMK Builder nutzen - dieser Repository wird automatisch erkannt
 
 ## Configuration
 
+### Layout visualization
+
+`boards/shields/dasbob/info.json` describes the 36 physical key positions in
+keymap order for tools such as [customkeymap.com](https://customkeymap.com).
+Load `config/dasbob.keymap` and then drop the `info.json` onto the page. The
+geometry is based on the [Dasbob physical layout](https://github.com/PandaScience/zmk-module-dasbob/blob/main/boards/shields/dasbob/dasbob-layouts.dtsi);
+the thumb positions follow the switch order in the [original PCB](https://github.com/GroooveBob/DASBOB/blob/main/dasbob.kicad_pcb).
+This file is only for visualization and does not change the firmware.
+
 ### Keymap: `config/dasbob.keymap`
 - **Base Layer**: QWERTY mit Homerow Mods
 - **Num Layer**: Zahlen & Funktionstasten
