@@ -58,6 +58,30 @@ This file is only for visualization and does not change the firmware.
 
 **Display Names** sind für den Prospector Layer Roller optimiert.
 
+### Bluetooth und USB
+
+Auf dem Fun-Layer (linken Daumen auf Delete halten):
+
+```text
+                                    USB/BLE                        Profil löschen
+                                    Profil 1   Profil 2   Profil 3   Profil 4   Studio
+```
+
+Die vier Profiltasten liegen auf der rechten Hälfte in der unteren
+Buchstabenreihe. USB/BLE umschalten liegt in der mittleren Reihe ganz links
+auf der rechten Hälfte; Profil löschen ganz rechts. Zum Löschen die Taste
+1,5 Sekunden halten. Das löscht nur die Host-Kopplung des aktiven Profils,
+nicht die Kopplung der Tastaturhälften.
+
+Für ein neues Gerät ein freies Profil wählen und den Prospector am Gerät per
+Bluetooth koppeln. Ist das Profil bereits belegt, zuerst die Kopplung am
+alten Host entfernen und das Profil löschen. Ist der Prospector per USB mit
+Strom versorgt, gegebenenfalls mit USB/BLE auf Bluetooth umschalten.
+
+Falls die Keymap zuvor mit ZMK Studio geändert wurde, bleiben diese gespeicherten
+Änderungen auch nach dem Flashen aktiv. „Restore Stock Settings“ in Studio
+übernimmt die neue Firmware-Keymap und verwirft dabei die Studio-Änderungen.
+
 ### Prospector Settings: `config/prospector_adapter.conf`
 - Auto Brightness mit Ambient Light Sensor
 - Layer Roller Anzeige
