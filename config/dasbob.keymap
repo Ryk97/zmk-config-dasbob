@@ -111,7 +111,7 @@
             display-name = "numbers";
             bindings = <
   &kp N1          &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0
-  &kp LSFT        &kp LCTL        &kp LGUI        &kp LALT        &kp CAPS        &kp TAB         &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT
+  &kp LGUI        &kp LCTL        &kp LALT        &kp LSFT        &kp CAPS        &kp TAB         &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT
   &trans          &trans          &trans          &trans          &trans         &kp INS           &kp HOME        &kp PGDN        &kp PGUP        &kp END
                                                   &trans          &trans          &trans          &trans          &trans          &trans
             >;
