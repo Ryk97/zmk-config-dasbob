@@ -87,6 +87,17 @@ Falls die Keymap zuvor mit ZMK Studio geändert wurde, bleiben diese gespeichert
 - Layer Roller Anzeige
 - Batterie-Status von Peripherals
 
+### KeyPeek
+
+Der Dongle-Build unterstützt [KeyPeek](https://github.com/srwi/keypeek) über
+Raw HID. Das Modul überträgt Tastenpositionen und Layer-Ereignisse an den
+verbundenen Host, auch wenn KeyPeek nicht geöffnet ist.
+
+Für einen Build ohne Telemetrie in `build.yaml` die auskommentierte
+Shield-Zeile ohne `raw_hid_adapter` aktivieren und die andere auskommentieren.
+Anschließend den Dongle neu bauen und flashen. Nach dem Aktivieren von Raw HID
+kann es notwendig sein, die Bluetooth-Verbindung zum Host neu zu koppeln.
+
 ## Pairing
 
 1. **Prospector flashen** und einschalten
